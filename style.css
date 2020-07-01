@@ -1,0 +1,110 @@
+        /*----------------------------------------------
+CSS Settings<|@|>
+------------------------------------------------*/
+        
+        body {
+            background-image: url("img/2.jpg");
+            background-repeat: no-repeat;
+        }
+        
+        span {
+            color: red
+        }
+        
+        h2 {
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+            margin: -10px -40px;
+            padding: 15px
+        }
+        
+        hr {
+            border: 0;
+            border-bottom: 1px solid;
+            margin: 10px -40px;
+            margin-bottom: 30px
+        }
+        
+        #login {
+            background-image: url("img/3.jpg");
+            margin: 40px auto;
+            width: 450px;
+            border-radius: 10px;
+            border: 2px solid #ccc;
+            padding: 10px 40px 25px;
+            background-color: #b6e6ff;
+            font-family: 'MuseoModerno', cursive;
+        }
+        
+        #update {
+            background-image: url("img/11.jpg");
+            margin: 40px auto;
+            width: 450px;
+            border-radius: 10px;
+            border: 2px solid #ccc;
+            padding: 10px 40px 25px;
+            background-color: #b6e6ff;
+            font-family: 'MuseoModerno', cursive;
+        }
+        
+        input[type=text],
+        input[type=email] {
+            width: 96.5%;
+            padding: 10px;
+            margin-top: 8px;
+            border: 1px solid #ccc;
+            padding-left: 5px;
+            font-size: 20px;
+            font-family: 'MuseoModerno', cursive;
+        }
+        
+        input[type=submit] {
+            width: 100%;
+            background-color: #2f90ff;
+            color: #fff;
+            border: 2px solid #white;
+            padding: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-family: 'Pangolin', cursive;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+        /*
+#profile {
+    padding: 50px;
+    border: 1px dashed grey;
+    font-size: 20px;
+    background-color: #DCE6F7
+}
+
+#logout {
+    float: right;
+    padding: 5px;
+    border: dashed 1px gray
+}
+*/
+        
+        a {
+            text-decoration: none;
+            color: #6495ed
+        }
+        
+        i {
+            color: #6495ed
+        }
