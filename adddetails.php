@@ -14,7 +14,6 @@ if(isset($_POST["submit"])){
     $lastname=$_POST["lname"];
     $email=$_POST["email"];
     $sql="INSERT INTO users(firstname,lastname,email) VALUES('$firstname','$lastname','$email')";
-    $result=$conn->query($sql);
     if($conn->query($sql)===true){
         header("location:delete.php?message=Row added Sucessfuly!");
     }else{
