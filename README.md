@@ -1,5 +1,5 @@
 # DataBase-Manager
-A Basic DataBase MaNager made using
+A Basic DataBase Manager made using
 Html5,material-css,JavaScript,Php,MySql
 <hr>
 With Basic features like:
